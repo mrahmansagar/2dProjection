@@ -13,3 +13,13 @@ Here is graphical interpretation of 1D and 2D projections for 2D and 3D case res
 <img align="left" width="40%" src="images/2dProjection.png" />
 
 Matlab built-in function _radon_ does the same thing. This is an raw implementation of radon transform without using any built-in functions.  
+
+
+> ### Running the script "projectionsOf3dVolume.m" does the followings.
+> - loads the volume.mat file from the current directory. [section: Volume loading]  
+> - (b) creates a folder "2dProjections" to store the 2d projections and corresponding angles. [section: Angles and Projections directory]
+> - saves the projections to the folder. [section: Projections]
+> - plots randomly selected 15 projections. [section: Plot Projections]
+
+
+If you need the example volume that I used here please write me an email. 
